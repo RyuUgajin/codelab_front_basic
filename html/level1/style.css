@@ -18,6 +18,13 @@ body {
   padding: 48px 60px 0 60px;
   background:white;
 }
+.hero__bg {
+  background-image: url("img/slide-1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
 
 .page-title__link img {
   height: 48px;
@@ -108,10 +115,9 @@ body > p {
   display: block;
 }
 .col4__box img {
-  width: 100%;    /* 親の幅に合わせる */
-  height: auto;   /* 高さは自動で縦横比維持 */
+  width: 100%;
   display: block;
-  object-fit: contain; /* 全体表示 */
+  object-fit: contain;
   border-radius: 0;
 }
 
